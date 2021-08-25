@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return render_template("")
+    return render_template("homepage.html")
 
 @app.route("/quote")
 def display_quote():
